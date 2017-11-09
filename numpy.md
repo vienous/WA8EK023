@@ -1,4 +1,4 @@
-## 1.numpy.array
+## 1. numpy.array
 
 ### numpy.array(object, dtype=None, copy=True, order='K', subok=False, ndmin=0)
 
