@@ -6,11 +6,9 @@
     
     * [一些基础](./interview/2.md)
     
-    * [操作符](./interview/3.md)
-    
-    * [数据结构](./interview/4.md)
-    
     * [一些面试题](./interview/5.md)
+    
+    * [一些基础](./interview/3.md)
     
  2. ## zookeeper和dubbo
  
