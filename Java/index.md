@@ -6,7 +6,7 @@
     
     * [一些基础](./interview/2.md)
     
-    * [一些基础](./interview/3.md)
+    * [操作符](./interview/3.md)
     
     * [数据结构](./interview/4.md)
     
