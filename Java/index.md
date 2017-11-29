@@ -3,13 +3,9 @@
  1. ## java面试题
  
     * [基本概念](./interview/1.md)
-
     * [一些基础](./interview/2.md)
-
-    * [另一些基础](./interview/3.md)
-
+    * [一些基础](./interview/3.md)
     * [数据结构](./interview/4.md)
-
     * [一些面试题](./interview/5.md)
  2. ## zookeeper和dubbo
  
