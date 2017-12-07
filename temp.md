@@ -7,9 +7,9 @@
 7. request.getAttribute()和request.getParamters()区别
 8. forword()和redirect()区别
 9. http里的get,post,put,delete
-10.session和cookies
-11.外连接和内连接
-12.悲观锁和乐观锁
-13.preparedStatement和statement
-14.fetch和pull
-15.authentication和authorization
+10. session和cookies
+11. 外连接和内连接
+12. 悲观锁和乐观锁
+13. preparedStatement和statement
+14. fetch和pull
+15. authentication和authorization
