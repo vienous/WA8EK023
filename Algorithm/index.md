@@ -67,7 +67,7 @@ function find(arr){
     return res;
 }
 var result = find(arr);
-//下标上界-下标下界最大时，回文最长
+//下标上界-下标下界最大时， 回文最长
 var maxIndex = 0
 var maxValue = result[0][1]-result[0][0]
 //找下标上界-下标下界最大的 
