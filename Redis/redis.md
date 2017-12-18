@@ -162,7 +162,9 @@ http://blog.csdn.net/guchuanyun111/article/category/6335900
     如果简单地比较Redis与Memcached的区别，大多数都会得到以下观点：
 
      1 、Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，zset，hash等数据结构的存储。
+     
      2 、Redis支持数据的备份，即master-slave模式的数据备份。
+     
      3 、Redis支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。
 
 	（1）、会话缓存（Session Cache）
