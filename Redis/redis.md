@@ -155,7 +155,7 @@ http://blog.csdn.net/guchuanyun111/article/category/6335900
 
 	4). Redis主从复制的性能问题，为了主从复制的速度和连接的稳定性，Slave和Master最好在同一个局域网内
 
-	17. redis 最适合的场景
+17. redis 最适合的场景
 
 	Redis最适合所有数据in-momory的场景，虽然Redis也提供持久化功能，但实际更多的是一个disk-backed的功能，跟传统意义上的持久化有比较大的差别，那么可能大家就会有疑问，似乎Redis更像一个加强版的Memcached，那么何时使用Memcached,何时使用Redis呢?
 
