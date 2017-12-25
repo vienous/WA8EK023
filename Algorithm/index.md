@@ -84,5 +84,49 @@ for(var o = result[maxIndex][0];o<=result[maxIndex][1];o++){
 }
 console.log(huiwen);//[ 'G', 'T', 'G', 'T', 'G' ]
 ```
+# 求数组中不同元素最大差值
+
+```javascript
+var A = [2,5,7,2,3,9,5,8,9,10,3,17,29];
+function FMD(arr,p,r){
+	var a1=[],a2=[];
+	var MaxAll = 0;
+	var MinAll = 0;
+	var ValAll = 0;
+	var ValM = 0;
+	if(p==r){
+		MaxAll=arr[p];
+		MinAll=arr[p];
+		ValAll=0;
+	}else{
+		m=parseInt((p+r)/2)
+		a1 = FMD(arr,p,m);
+		a2 = FMD(arr,m+1,r);
+		ValM = a2[0]-a1[1];
+		ValAll = max(a1[2],a2[2],ValM);
+		MaxAll = max(a1[0],a2[0]);
+		MinAll = min(a1[1],a2[1]);
+
+	}
+	return [MaxAll,MinAll,ValAll];
+}
+function max(p1,p2,p3){
+	var max = p1;
+	if(max<p2){
+		max = p2 
+	}
+	if(typeof(p3)!='undefined'){
+		console.log("1111");
+		if(max<p3){
+			max = p3;
+		}
+	}
+	return max;
+}
+function min(p1,p2){
+	return p1<p2 ? p1:p2;
+}
+console.log(FMD(A,0,12));
+```
 
 
