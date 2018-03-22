@@ -1,4 +1,5 @@
-##1 np.newaxis  
+## 1 np.newaxis  
+
 为 numpy.ndarray（多维数组）增加一个轴
 
 ```python
@@ -21,7 +22,8 @@ x[:, None]
 x[:, np.newaxis].shape    
 #(3, 1)
 ```
-##2 np.random.randn() 和 np.random.rand()
+## 2 np.random.randn() 和 np.random.rand()
+
 numpy.random.randn(d0, d1, …, dn)是从标准正态分布中返回一个或多个样本值。 
 numpy.random.rand(d0, d1, …, dn)的随机样本位于[0, 1)中。 
 ```python
@@ -33,7 +35,8 @@ np.random.rand(2,4)
 #[[ 0.19947349  0.05282713  0.56704222  0.45479972]
 #[ 0.28827103  0.1643551   0.30486786  0.56386943]]
 ```
-##3 np.dot()
+## 3 np.dot(
+
 ```python
 1.如果处理的是一维数组，则得到的是两数组的內积
 
