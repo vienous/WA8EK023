@@ -26,7 +26,8 @@ def classify0(inX, dataSet, labels, k):    #inX为输入样本，例如[85,90]
         voteLabel = labels[sortedDistance[i]]      #遍历前k个样本的标签
         classCount[voteLabel] = classCount.get(voteLabel,0) + 1  #对标签进行计数，即每一类出现的次数
     print(classCount)
-    sortedClassCount = sorted(classCount.items(),key = lambda s: s[1],reverse = True)  #将计数后的标签按降序进行排列，得到元组列表
+    sortedClassCount = sorted(classCount.items(),key = operator.itemgetter(1),reverse = True)  #将计数后的标签按降序进行排列，得到元组列表
+    #=lambda s: s[2]
     print(sortedClassCount)
     return sortedClassCount[0][0]
 
