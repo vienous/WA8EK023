@@ -8,5 +8,6 @@
  6. [Algorithm](/Algorithm/index.md)
  7. [Redis](/Redis/redis.md)
  8. [机器学习](/ML/index.md)
+ 9. [数据结构](/DataStructure/index.md)
 
 
