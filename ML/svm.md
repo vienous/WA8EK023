@@ -10,9 +10,12 @@
   
   5.[线性支持回归](http://www.cnblogs.com/pinard/p/6111471.html)
   
+  
 * [支持向量机通俗导论（理解SVM的三层境界）](https://blog.csdn.net/v_july_v/article/details/7624837)
 
 * [数据挖掘（机器学习）面试--SVM面试常考问题](https://blog.csdn.net/szlcw1/article/details/52259668)
+
+* [scikit-learn 支持向量机算法库使用小结](https://blog.csdn.net/v_july_v/article/details/7624837)
 
           
   
