@@ -2,5 +2,6 @@
  
     * [贝叶斯网络](./bayesian.md)
     * [KNN](./knn.md)
+    * [SVM](./svm.md)
 
     
